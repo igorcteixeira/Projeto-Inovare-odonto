@@ -1,0 +1,193 @@
+*, *::after, *::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor-primaria: #365B6D;
+    --cor-secundaria: #99D9D9;
+    --brando-primario: #FFFFFF;
+    --branco-gelo: #F2F2F0;
+    --marron-claro: #C6C1BC;
+    --marron-primario: #A58272;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    
+}
+
+    body{
+    min-width: 280px;
+    max-width: 800px;
+    margin: auto;
+    background-image: url(Assets/Fundo_de_pagina.svg);
+    background-position:  center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+
+
+a, li{
+    list-style: none;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding-right: 11%;
+    
+}
+
+.header ul{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+}
+
+img.telaLogin{
+    width: 250px;
+    position:relative;
+    left: 40%;
+    margin-bottom: 15px ;
+}
+
+#username{
+    margin-bottom: 25px;
+}
+
+.login {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.telaLogin{
+    display:flex;
+    flex-direction: column;
+    align-content: space-around;
+    gap:  15px;
+    position:relative;
+    top: 20%;
+    left: 30%;
+    
+}
+
+
+.lembrasenha{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    gap: 2px;
+    
+    position:relative;
+    top: 20%;
+    left: 30%;
+    color: #365B6D;
+    font-size:medium;
+}
+
+#esqueceuSenha{
+    color: #365B6D;
+    padding-left: 225px;
+}
+
+
+
+#username, #password{
+    background: #FFFFFF;
+    border: 1.035px solid #C4C4C4;
+    box-shadow: 0px 4.14px 4.14px rgba(0, 0, 0, 0.25);
+
+    width: 414px;
+    height: 43.71px;
+
+}
+
+
+
+#esqueceuSenha{
+    font-size: x-small;
+}
+
+
+
+#botaologin{
+    width: 150px;
+    height: 52.19px;
+
+    background: #41C1BA;
+    border-radius: 20px;
+    border-color:snow;
+
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #365B6D;
+    
+}
+
+.semCadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: small;
+    padding-left: 100px;
+}
+
+
+.redesSociais ol{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap:  12px;
+    position: relative;
+    left: 450px;
+    top: 130px;
+    
+    
+    
+}
+
+
+
+
+.button-91 {
+  color: #365B6D;
+  padding: 15px 25px;
+  background-color: #38D2D2;
+  background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0px 3px 9px rgba(255, 255, 255, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 36px rgba(0, 0, 0, 0.3), inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+  border-radius: 14px;
+  font-weight: bold;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+  cursor: pointer;
+}
+
+.buttonPadrao{
+    width: 150px;
+    height: 52.19px;
+
+    background: #41C1BA;
+    border-radius: 20px;
+    border-color:snow;
+
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #365B6D;
+}
