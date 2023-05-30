@@ -33,6 +33,24 @@ a, li{
     text-decoration: none;
 }
 
+.buttonPadrao:hover{
+    background: #365B6D;
+    color: #38D2D2;
+    transition: 0.3s ease all;
+    transform: scale(1, 1);
+    cursor: pointer;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .3);
+}
+
+#botaologin:hover{
+    background: #365B6D;
+    color: #38D2D2;
+    transition: 0.3s ease all;
+    transform: scale(1, 1);
+    cursor: pointer;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .3); 
+}
+
 .header {
     display: flex;
     justify-content:center;
@@ -43,7 +61,7 @@ a, li{
 
 .header ul{
     display: flex;
-    gap: 4rem;
+    gap: 5.5rem;
     align-items: center;
 }
 
@@ -65,13 +83,15 @@ img.telaLogin{
 .telaLogin{
     display:flex;
     flex-direction: column;
-    align-content: space-around;
-    gap:  15px;
+    align-content: space-between;
+    justify-content: center;
+    gap: 15px;
     position:relative;
     top: 20%;
     left: 30%;
-    
 }
+
+
 
 
 .lembrasenha{
@@ -92,6 +112,7 @@ img.telaLogin{
 #esqueceuSenha{
     color: #365B6D;
     padding-left: 225px;
+    cursor: pointer;
 }
 
 
@@ -157,6 +178,7 @@ img.telaLogin{
 
 
 
+/* Butão alternativo para os serviços
 .button-91 {
   color: #365B6D;
   padding: 15px 25px;
@@ -174,14 +196,14 @@ img.telaLogin{
   touch-action: manipulation;
 
   cursor: pointer;
-}
+} /*/
 
 .buttonPadrao{
-    width: 150px;
+    width: 180px;
     height: 52.19px;
 
     background: #41C1BA;
-    border-radius: 20px;
+    border-radius: 15px;
     border-color:snow;
 
     font-family: Montserrat;
@@ -192,3 +214,85 @@ img.telaLogin{
     text-align: center;
     color: #365B6D;
 }
+
+
+.hidden {
+    display: none;
+  }
+
+.btn-fechar {
+    padding: 1.5px;
+    position: relative;
+    left: 10rem;
+    bottom: 14.3rem;
+    
+    
+  }
+
+
+.modal-container{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, .3);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal{
+    background: white;
+    border: 2px solid black;
+
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+
+    position:relative;
+    width: 370px;
+    height: 500px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    
+
+}
+
+.modal img{
+    width: 170px;
+    height: 130px;
+}
+
+.modal p{
+    text-align: center;
+    padding-right: 0px;
+}
+
+
+
+.popupSenha{
+    color: #365B6D;
+    font-weight: bold;
+}
+
+
+#inputPopup{
+    background: #FFFFFF;
+    border: 1.035px solid #C4C4C4;
+    box-shadow: 0px 4.14px 4.14px rgba(0, 0, 0, 0.25);
+
+    width: 290px;
+    height: 28px;
+
+}
+
+/*Janelas POP para jogar no html (abaixo do Footer*/
+
+
